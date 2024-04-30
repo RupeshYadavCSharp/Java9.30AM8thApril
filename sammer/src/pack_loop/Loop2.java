@@ -1,6 +1,7 @@
 package pack_loop;
 
 import java.util.Scanner;
+//Addtion of enter digit
 
 public class Loop2 {
     public static void main(String[] args) {
