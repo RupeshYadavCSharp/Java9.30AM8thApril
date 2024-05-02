@@ -12,8 +12,9 @@ public class Loop2 {
 
         while (num !=0){
             sum=num%10;
-            sum1=sum1+sum;
+
             num=num/10;
+            sum1=sum1+sum;
 
 
 
@@ -21,3 +22,5 @@ public class Loop2 {
         System.out.println("The addtion of No is "+ sum1);
     }
 }
+
+
