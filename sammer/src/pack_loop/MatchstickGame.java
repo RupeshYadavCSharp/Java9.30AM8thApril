@@ -27,6 +27,8 @@ public class MatchstickGame {
             computerPick = (matchSticks >= 4) ? 4 : matchSticks;
             matchSticks -= computerPick;
 
+
+
             System.out.println("The computer picks " + computerPick + " match sticks.");
         } while (matchSticks > 0);
 
