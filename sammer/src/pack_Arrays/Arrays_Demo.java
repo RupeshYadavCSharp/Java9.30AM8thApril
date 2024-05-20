@@ -18,16 +18,11 @@ public class Arrays_Demo {
         {
             for (int j = 0; j < ja[i].length; j++)
             {
-                for (int k = 0; k < ja[i][j].length; k++) {
+                for (int k = 0; k < ja[i][j].length; k++)
+                {
                     ja[i][j][k] = scan.nextInt();
-
                 }
-                System.out.println();
-
-
             }
-            System.out.println();
-
         }
         System.out.println("Array is ");
 
@@ -35,18 +30,13 @@ public class Arrays_Demo {
         {
             for (int j = 0; j < ja[i].length; j++)
             {
-                for (int k = 0; k < ja[i][j].length; k++) {
-                    System.out.print(ja[i][j][k]);
+                for (int k = 0; k < ja[i][j].length; k++)
+                {
+                    System.out.print(ja[i][j][k] +" ");
                 }
                 System.out.println();
-
             }
             System.out.println();
-            System.out.println();
-
         }
-
-
-
     }
 }
