@@ -3,7 +3,7 @@ package pack_inher;
 import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
-public class Student1 {
+public class Student1 extends Dcp {
     private int rollNo;
     private int Per;
     public void  readStd(){

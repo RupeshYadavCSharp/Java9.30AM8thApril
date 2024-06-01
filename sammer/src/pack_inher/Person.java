@@ -2,7 +2,7 @@ package pack_inher;
 
 import java.util.Scanner;
 
-public class Person extends Dcp {
+public class Person {
     private int age;
     private String name;
 
@@ -11,7 +11,7 @@ public class Person extends Dcp {
         System.out.println("Enter the age ");
         age=scan.nextInt();
         System.out.println("Enter the Name ");
-        name=scan.nextLine();
+        name=scan.next();
 
 
 

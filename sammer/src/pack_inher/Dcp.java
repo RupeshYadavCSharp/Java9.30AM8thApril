@@ -5,7 +5,7 @@ import pack_classobj.Public;
 import java.awt.desktop.SystemEventListener;
 import java.util.Scanner;
 
-public class Dcp extends Student1 {
+public class Dcp extends Person  {
     private int rollNo;
     private String DepName;
 
