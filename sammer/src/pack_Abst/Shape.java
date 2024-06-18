@@ -1,10 +1,14 @@
 package pack_Abst;
 
-public class Shape {
-    protected double len,bre,red;
 
-    public void area() {
 
-    }
+public abstract class Shape
+{
+    protected double length,breadth,radius;
 
+    public abstract void area();
+    public abstract void perimeter();
 }
+
+
+
