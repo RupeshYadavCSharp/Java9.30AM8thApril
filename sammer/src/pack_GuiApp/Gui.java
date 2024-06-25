@@ -1,17 +1,24 @@
 package pack_GuiApp;
 
-public class Gui {
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Gui
+{
+    JFrame objjframe;
+
     public Gui()
     {
+        objjframe = new JFrame();
+        objjframe.setBounds(50,50,300,300);
+        objjframe.setTitle("Welcome to Binary Brains");
+        objjframe.getContentPane().setBackground(Color.blue);
+        objjframe.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
-
-
-
-        //4background color
-        //2img on the frame
-        //1title
-        //3frame adust full screen
-
+        objjframe.setVisible(true);
 
     }
+
 }
+
