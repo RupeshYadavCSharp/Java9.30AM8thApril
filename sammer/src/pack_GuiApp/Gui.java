@@ -8,6 +8,7 @@ public class Gui
 {
     JFrame objjframe;
 
+
     public Gui()
     {
         objjframe = new JFrame();
@@ -15,6 +16,7 @@ public class Gui
         objjframe.setTitle("Welcome to Binary Brains");
         objjframe.getContentPane().setBackground(Color.blue);
         objjframe.setExtendedState(JFrame.MAXIMIZED_BOTH);
+
 
         objjframe.setVisible(true);
 
